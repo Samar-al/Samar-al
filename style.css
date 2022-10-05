@@ -1,0 +1,82 @@
+**{
+    box-sizing: border-box ;
+}
+
+.wrapper{
+    background-color: #F7CAC9;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+   
+    
+}
+header{
+    background-color: black;
+    height: 25rem;
+    color: white; 
+   
+}
+
+h1{
+    color: white;
+    text-align: left;
+    padding: 3rem;
+    
+}
+header p{
+    padding: 0.5rem;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 2.5rem;
+
+}
+.social{
+    margin-right: 1rem;
+}
+.pers-info ul, .social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline-block;
+    text-align: end;
+    padding: 1rem;
+}
+.social ul li a:hover{
+    
+    color: blueviolet;
+    transform: scale(3);
+    
+}
+
+main{
+    box-sizing: border-box;
+    display: flex;
+    margin: 1rem;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+}
+.Compétences{
+    box-sizing: border-box;
+    text-align: justify; 
+    padding: 1rem;
+}
+ .formation{
+    box-sizing: border-box;
+    text-align: justify;
+    padding: 1rem;
+}
+.exp-pro{
+    box-sizing: border-box;
+    text-align: justify; 
+    padding: 1rem;
+} 
+footer{
+    background-color: black;
+    position: fixed;
+    bottom: 0rem;
+}
