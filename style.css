@@ -13,23 +13,27 @@
 }
 header{
     background-color: black;
-    height: 25rem;
+    
     color: white; 
    
 }
 
 h1{
+    margin-block-start: 0;
     color: white;
     text-align: left;
     padding: 3rem;
     
 }
 header p{
-    padding: 0.5rem;
+  
+    margin-left: 1.6rem;
+    width: 25rem;
 }
 .container{
     display: flex;
     justify-content: space-between;
+    
     align-items: flex-end;
     margin-top: 2.5rem;
 
@@ -45,36 +49,61 @@ header p{
     text-align: end;
     padding: 1rem;
 }
+.social ul li a{
+    
+    color: blue;
+
+
+}
+
 .social ul li a:hover{
     
-    color: blueviolet;
-    transform: scale(3);
+        color: blueviolet;
+    
     
 }
+
+
+
 
 main{
     box-sizing: border-box;
     display: flex;
     margin: 1rem;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
     
 }
 .Compétences{
     box-sizing: border-box;
     text-align: justify; 
     padding: 1rem;
+    width: 50%;
+    order: 0;
+    border-right: 1px solid black;
 }
  .formation{
     box-sizing: border-box;
     text-align: justify;
+    padding: 1rem;
+    width: 50%;
+    order: 2;
+    border-right: 1px solid black;
+}
+.formation ul li{
     padding: 1rem;
 }
 .exp-pro{
     box-sizing: border-box;
     text-align: justify; 
     padding: 1rem;
+    width: 50%;
+    order: 1;
 } 
+.exp-pro ul li{
+    
+    padding: 1rem;
+}
 footer{
     background-color: black;
     position: fixed;
